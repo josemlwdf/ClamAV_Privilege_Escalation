@@ -3,6 +3,13 @@
 ## ROOT EXPLOIT
 
 This is a Python 3 script designed to exploit the ClamAV privilege escalation vulnerability described at https://exploit-notes.hdks.org/exploit/linux/privilege-escalation/sudo/sudo-clamav-privilege-escalation/. The script performs a brute-force attack to guess the RSA private key of the root user, but it can be easily modified to read any file as root.
+
+### Installation
+
+    Clone this repository to your local machine.
+
+    Open a terminal and navigate to the directory where you cloned the repository.
+    
 ### Usage
 
 To run the exploit, simply execute the script:
@@ -33,10 +40,6 @@ This script requires Python 3 to be installed on your system. You can download a
     Clone this repository to your local machine.
 
     Open a terminal and navigate to the directory where you cloned the repository.
-
-    Install the required packages using the following command:
-
-    pip install -r requirements.txt
 
 ### Usage
 
