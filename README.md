@@ -1,4 +1,4 @@
-# ClamAV Privilege Escalation Exploit
+# ClamAV Privilege Escalation Exploit (No CVE)
 
 ## ROOT EXPLOIT
 
