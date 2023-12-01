@@ -6,15 +6,15 @@ This is a Python 3 script designed to exploit the ClamAV privilege escalation vu
 
 ### Installation
 
-    Clone this repository to your local machine.
+``Clone this repository to your local machine.``
 
-    Open a terminal and navigate to the directory where you cloned the repository.
+``Open a terminal and navigate to the directory where you cloned the repository.``
     
 ### Usage
 
 To run the exploit, simply execute the script:
 
-``python3 root_exploit.py``
+    python3 root_exploit.py
 
 The script will launch ClamAV as the root user and try to guess the RSA private key by brute force. Once the key is found, it will be saved to a file called id_rsa.
 ### Customization
@@ -37,15 +37,15 @@ This script requires Python 3 to be installed on your system. You can download a
 
 ### Installation
 
-    Clone this repository to your local machine.
+``Clone this repository to your local machine.``
 
-    Open a terminal and navigate to the directory where you cloned the repository.
+``Open a terminal and navigate to the directory where you cloned the repository.``
 
 ### Usage
 
 To use the script, run the following command:
 
-``python3 root_through_f.py /clamav/output/path``
+    python3 root_through_f.py /clamav/output/path
 
 This command reads the output from ClamAV located at /clamav/output/path, cleans the data, and saves the cleaned data to a file named output.txt.
 
@@ -53,9 +53,9 @@ This command reads the output from ClamAV located at /clamav/output/path, cleans
 
 Before running the script, you must generate the ClamAV output as a root user. To generate the output, run the following command:
 
-  ``sudo /usr/bin/clamav -f /path/to/file/to/read``
+    sudo /usr/bin/clamav -f /path/to/file/to/read
 
-    Copy the output to a file and use it as the input for the script.
+``Copy the output to a file and use it as the input for the script.``
 ### License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
